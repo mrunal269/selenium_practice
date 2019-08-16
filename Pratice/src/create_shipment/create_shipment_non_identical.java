@@ -13,6 +13,7 @@ import org.testng.annotations.DataProvider;
 public class create_shipment_non_identical {
 	WebDriver driver;
   @Test(dataProvider = "dp")
+  //this is create shipment
   public void non_identical(String recipient_name,String name1_or_groupname,String weight) throws InterruptedException {
 	//First three lines are cred script
 	    driver.findElement(By.xpath("/html/body/app-root/app-login/div/div[2]/div[2]/div[1]/div[2]/form/div[1]/div[2]/div/input")).sendKeys("ranjit.patil@exelaonline.com");
