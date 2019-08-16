@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite2" verbose="1">
+    <test name="all-tests">
+        <packages>
+            <package name="Execution.Address_add_data"/>
+            <package name="create_shipment.create"/>
+        </packages>
+    </test>
+</suite> <!-- Suite -->

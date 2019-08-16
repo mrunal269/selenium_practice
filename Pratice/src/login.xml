@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" preserve-order="true" parallel="none">
+   <test name="add member">
+    <classes>
+     <class name="create_shipment.create"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="create shipment">
+    <classes>
+     <class name="create_shipment.create_shipment_with_template"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
